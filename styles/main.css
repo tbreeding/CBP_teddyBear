@@ -4,13 +4,20 @@
 img {
     max-height: 410px;
 }
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: right;
+}
 body {
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     background-color: lightblue;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3B231B;
 }
 .container {
     width: 60vw;
@@ -22,13 +29,14 @@ body {
     display: flex;
     background-color: blanchedalmond;
     height: 100%;
+    box-shadow: 5px 5px 10px 0 gray;
 }
 .product img {
     border: 3px solid lightblue;
     border-radius: 10px;
 }
 .productDescription {
-    padding: 5px 20px;
+    padding: 15px 20px;
     display: grid;
     grid-template-rows: 1fr 2fr 1fr;
     height: 100%;
@@ -38,7 +46,6 @@ body {
     align-self: center;
     padding: 10px 30px;
     border: 1px solid #3B231B;
-    color: #3B231B;
     background-color: blanchedalmond;
     font-size: 2rem;
     font-weight: 600;
