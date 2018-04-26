@@ -25,6 +25,7 @@ body {
 }
 .product img {
     border: 3px solid lightblue;
+    border-radius: 10px;
 }
 .productDescription {
     padding: 5px 20px;
@@ -44,6 +45,7 @@ body {
     cursor: pointer;
     box-shadow: 2px 2px 4px 0 gray;
     user-select: none;
+    border-radius: 10px;
 }
 .buyButton:active {
     transform: translate(2px, 2px);
